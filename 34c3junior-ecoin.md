@@ -1,3 +1,6 @@
+[home](https://adminadminctf.github.io/ctf/)
+
+# Ecoin - hard
 This challenge was quite a ride, but probably also the most fun one of the JuniorCTF. We have never done something similar before, so please excuse if some of our steps appear dilettante.
 
 ## Extracting all the interesting stuff
