@@ -1,6 +1,6 @@
-###[home](https://adminadminctf.github.io/ctf/)
+[home](https://adminadminctf.github.io/ctf/)
 
-# Ecoin - hard
+# Babybash - easy
 In this challenge we are required to execute a simple command in a reduced bash in order to obtain the flag.
 Below you can see the output of the `help` command which displays the command we want to execute and also which characters are banned from usage.
 
