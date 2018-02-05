@@ -12,6 +12,6 @@ That's all we need to know! Thankfully we do not need a modem. Instead we just u
 
 After the program is finished, we check the magic number of ouf file or simply use file command and see, that we got a *.png! Finally, open it up - et voilà, our flag:
 
-![Imgur](https://imgur.com/a/2crLu.png)
+![Imgur](https://i.imgur.com/Ot3lGYK.png)
 
 ## 34C3_tut_tut_wat!
