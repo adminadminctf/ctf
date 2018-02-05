@@ -7,6 +7,8 @@
 
 [Babybash - easy](https://adminadminctf.github.io/ctf/34c3junior-babybash)
 
+[Information society - easy](https://adminadminctf.github.io/ctf/34c3junior-information-society)
+
 ## pwn
 
 ## rev
