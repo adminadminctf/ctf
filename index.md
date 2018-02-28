@@ -1,6 +1,6 @@
 # TAMUctf 2018
 ## Reversing
-[Hashbrowns](https://adminadminctf.github.io/ctf/TAMUctf18-hashbrowns.md)
+[Hashbrowns](https://adminadminctf.github.io/ctf/TAMUctf18-hashbrowns)
 
 # 34c3 JuniorCTF
 
