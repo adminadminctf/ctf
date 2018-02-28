@@ -1,6 +1,8 @@
-# 34c3 JuniorCTF
+# TAMUctf 2018
+## Reversing
+[Hashbrowns](https://adminadminctf.github.io/ctf/TAMUctf18-hashbrowns.md)
 
-## crypto
+# 34c3 JuniorCTF
 
 ## misc
 [Ecoin - hard](https://adminadminctf.github.io/ctf/34c3junior-ecoin)
@@ -9,8 +11,4 @@
 
 [Information society - easy](https://adminadminctf.github.io/ctf/34c3junior-information-society)
 
-## pwn
 
-## rev
-
-## web
