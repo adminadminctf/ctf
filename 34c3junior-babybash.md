@@ -8,7 +8,7 @@ The bash can be reached via `nc 35.189.118.225 1337`
 
 ![Imgur](https://i.imgur.com/QmYnl3a.png)
 
-Our first intution was that we need to encode the command in some way or another. We did not think of capital letters, as the other writeup suggests. D'oh!
+Our first intuition was that we need to encode the command in some way or another. We did not think of capital letters, as the other writeup suggests. D'oh!
 
 So we encode our command in octal representation since there is no alphabetical letter needed (in contrast to hex encoding). The encoded command is stored in a variable in the first step and finally executed in a second step.
 
