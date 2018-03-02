@@ -10,6 +10,7 @@ Let's have a look at the hashbrowns in radare2. There are a lot of function call
 As this challenge is only worth 100 points, we do not need to worry about the internals, which are not that easy to examine anyway, because the dynamic linking. So we concentrate on the hash we found. There are two options: first, cracking it using hashcat in brute-force or dictionary mode. Second, just lazily copy+paste it into our rainbow table service of choice and let them do the magic. Et voilà, it actually is the SHA1 hash of the word ```potatoes```.
 
 When we now enter ```potatoes``` as password, we are disappointed, because it still is not the correct input according to the program. Also, the output string is something totally different than the stored hash and - as already mentionend - might not even be a real hash.
+
 ![Imgur](https://i.imgur.com/YAjcy4B.png)
 
 However, when we submit ```potatoes``` as flag, it is accepted and we do not need to worry anymore. Neat.
