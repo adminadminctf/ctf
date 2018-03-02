@@ -1,4 +1,4 @@
-[home](https://adminadminctf.github.io/ctf/)
+[home](https://admin-admin.at)
 
 # Hashbrowns
 For this challenge we're given a 32-bit ELF executable which, upon execution, prompts us to enter a password (up to 20 characters in length) and then outputs a string which seems to be some kind of hash, although of unkown sort. Additionally we learn, that the entered password is wrong/right.
