@@ -64,7 +64,7 @@ We can outline the approximate steps from here to the flag:
 
 
 ## Debugging
-We load the binary in GDB and via '''disas main''' obtain the assembly instructions of the main function. For us the two parts where the random numbers are pushed on the stack are of most interest. For this, we just need to find the function calls to the rand() function:
+We load the binary in GDB and via ```disas main``` obtain the assembly instructions of the main function. For us the two parts where the random numbers are pushed on the stack are of most interest. For this, we just need to find the function calls to the rand() function:
 
 Call for first number: ``` 0x0000000000400930 <+202>:	callq  0x400750 <rand@plt>```
 Call for second numb:  ```0x000000000040095f <+249>:	callq  0x400750 <rand@plt>```
