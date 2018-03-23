@@ -7,9 +7,9 @@ For this challenge we get a binary (guessPublic64) and the source it was compile
 ## Outline
 The program basically does the following:
 
-* Ask the user to enter the sum ('''guess''') of two secret random numbers in the range from 0 to 1000000
-* Calculate the random numbers, using '''c.time()''' as seed
-* If the '''guess''' equals the sum of the two random numbers, the flag gets printed
+* Ask the user to enter the sum (guess) of two secret random numbers in the range from 0 to 1000000
+* Calculate the random numbers, using ```c.time()``` as seed
+* If the guess equals the sum of the two random numbers, the flag gets printed
 
 Here's the source code:
 ```
@@ -62,6 +62,7 @@ We can outline the approximate steps from here to the flag:
 * Craft a format string payload suited to the scenario (and buffer)
 * Use this payload on the shell server
 
+
 ## Debugging
 We load the binary in GDB and via '''disas main''' obtain the assembly instructions of the main function. For us the two parts where the random numbers are pushed on the stack are of most interest. For this, we just need to find the function calls to the rand() function:
 
@@ -83,6 +84,7 @@ In order to display both of them, we exactly need to read exactly 9 stack frames
 Below you can see an exemplary (debug) run of the binary:
 
 ![Imgur](https://i.imgur.com/G9RfLsD.png)
+
 
 
 And finally, we apply our knowledge on the CTF server. Works like a charm!
