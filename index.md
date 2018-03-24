@@ -1,4 +1,4 @@
-# angstromCTF - xxth
+# angstromCTF
 ## Misc
 [File Transfer](https://adminadminctf.github.io/ctf/angstromctf2018-fileTransfer)
 
@@ -11,12 +11,12 @@
 [Rop to the Top](https://adminadminctf.github.io/ctf/angstromctf2018-ropToTheTop)
 
 
-# TAMUctf 2018 - 79th
+# TAMUctf 2018
 ## Reversing
 [Hashbrowns](https://adminadminctf.github.io/ctf/TAMUctf18-hashbrowns)
 
 
-# 34c3 JuniorCTF - 57th
+# 34c3 JuniorCTF
 ## misc
 [Ecoin - hard](https://adminadminctf.github.io/ctf/34c3junior-ecoin)
 
