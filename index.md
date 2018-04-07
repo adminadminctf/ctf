@@ -1,3 +1,8 @@
+# sunshineCTF 2018
+## Crypto
+[Bomba](https://adminadminctf.github.io/ctf/sunshineCTF2018-bomba)
+
+
 # angstromCTF 2018
 ## Misc
 [File Transfer](https://adminadminctf.github.io/ctf/angstromctf2018-fileTransfer)
