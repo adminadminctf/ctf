@@ -5,6 +5,12 @@
 General
 -------
 [CyberChef](https://gchq.github.io/CyberChef): Countless en-/decodings, cryptographic ciphers, hashing, data formats,...
+[GoAccess](https://goaccess.io/): nginx/apache log analysis. Beautiful representation in terminal, HTML output (incl. graphs) also possible.
+
+
+Traffic
+-------
+[NetreSec NetworkMiner](http://www.netresec.com/?page=NetworkMiner): Easily extract hosts, files, credentials,... from a PCAP file. Windows only!
 
 
 Steganography
