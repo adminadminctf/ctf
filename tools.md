@@ -5,6 +5,7 @@
 General
 -------
 [CyberChef](https://gchq.github.io/CyberChef): Countless en-/decodings, cryptographic ciphers, hashing, data formats,...
+
 [GoAccess](https://goaccess.io/): nginx/apache log analysis. Beautiful representation in terminal, HTML output (incl. graphs) also possible.
 
 
