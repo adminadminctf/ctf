@@ -21,3 +21,5 @@ Steganography
 [Seatty](http://www.dxsoft.com/de/products/seatty/): Receive RTTY, NAVTEX, HF-FAX (WEFAX), GMDSS DSC (HF and VHF) and NWR SAME via audio files.
 
 [Sonic Visualiser](https://www.sonicvisualiser.org/): Spectrograms FTW!
+
+[Stego Toolkit](https://hub.docker.com/r/dominicbreuker/stego-toolkit/): Everything a stego challenge fan could wish for in a Docker container.
