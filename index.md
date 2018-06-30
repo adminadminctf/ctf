@@ -1,6 +1,11 @@
 # Useful tools
 [Here](https://adminadminctf.github.io/ctf/tools)
 
+
+# Quals: Tunisia & Jordan National Cyber Security CTF 2018
+[Transposed](https://adminadminctf.github.io/ctf/transposed)
+
+
 # sunshineCTF 2018
 [Data Exfil](https://adminadminctf.github.io/ctf/sunshineCTF2018-data_exfil)
 
