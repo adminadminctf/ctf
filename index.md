@@ -3,7 +3,7 @@
 
 
 # Quals: Tunisia & Jordan National Cyber Security CTF 2018
-[Transposed](https://adminadminctf.github.io/ctf/transposed)
+[Transposed](https://adminadminctf.github.io/ctf/qualsjordtunis2018-transposed)
 
 
 # sunshineCTF 2018
