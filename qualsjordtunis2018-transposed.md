@@ -2,10 +2,9 @@
 
 # Transposed - medium
 In this challenge we get two files: a text file ```output``` containing the encrypted (or rather transformed) flag
-```
-L{NTP#AGLCSF.#OAR4A#STOL11__}PYCCTO1N#RS.S
-```
+```L{NTP#AGLCSF.#OAR4A#STOL11__}PYCCTO1N#RS.S```
 and a piece of Python code ```encrypt.py``` which was used to transform the cleartext flag.
+
 ```
 #-*- coding:utf-8 -*-
 
@@ -30,7 +29,9 @@ for i in xrange(100):
     msg = res
 print msg
 ```
-In hindsight this challenge was quite easy and it took me much longer than it should have. Most of the time was spent trying to wrap my head around inverting string operations, such as ```msg[0::2] ``` , which may be not too usual for everyone. So lets step through the code quickly:
+In hindsight this challenge was quite easy and it took me much longer than it should have. Most of the time was spent trying to wrap my head around inverting string operations, such as ```msg[0::2] ``` , which may be not too usual for everyone. So lets step through the code quickly.
+
+## Analysis of encryption code
 
 At first, a random permutation of the first seven positive integers (e.g. ```[5, 6, 1, 3, 2, 0, 4]```)  is created. Then the cleartext flag is read from a text file and padded with ```.``` such that the length of the padded flag is at least 14 and divisible by 7 (i.e. 14, 21, 28,...).
 
@@ -41,6 +42,8 @@ After padding the flag, a loop of 100 iterations is run through, carrying out th
 4. The outer for-loop (index ```j```) iterates over the length of the ```msg``` string in increments of 7 (i.e. first iteration ```j = 0```, second iteration ```j = 7```, third iteration ```j = 21```,...). The inner for-loop  (index ```k```) then works on junks of 7 characters (starting at postion ```j```) by appendending the character at position ```j + k``` to the ```res``` string. Here the permutation comes into play, because the character appended to the ```res``` string depends on the value at position ```k``` in the permutation array. At the end, said ```res``` string will be the new ```msg``` string in the next iteration.
 
 That's basically it: no key or any other shenanigans involved!
+
+## The solution
 
 In order to reconstruct the plaintext flag, the above code needs to be inverted (more or less :). As we don't know the actual permutation which was used during the encryption, we need to brute-force this part (there are 5040 possible possible combinations). To do this we put the actual decryption code into a loop which uses a different permutation during each iteration.
 Now inverting the encryption code:
