@@ -2,8 +2,7 @@
 
 # Transposed - medium
 In this challenge we get two files: a text file ```output``` containing the encrypted (or rather transformed) flag
-```L{NTP#AGLCSF.#OAR4A#STOL11__}PYCCTO1N#RS.S```
-and a piece of Python code ```encrypt.py``` which was used to transform the cleartext flag.
+```L{NTP#AGLCSF.#OAR4A#STOL11__}PYCCTO1N#RS.S``` and a piece of Python code ```encrypt.py``` which was used to transform the cleartext flag.
 
 ```
 #-*- coding:utf-8 -*-
